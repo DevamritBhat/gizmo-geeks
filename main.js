@@ -34,3 +34,7 @@ function typeWriter() {
     setTimeout(typeWriter, 75);
   }
 }
+
+function websiteVisits(response) {
+  document.querySelector("#views").textContent = response.value + " views";
+}
